@@ -1,9 +1,29 @@
-body {
-  background-color: #dedede;
-  width: 1vw;
-  height: 1vh;
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #dedede;
+  width: 100vw;
+  height: 100vh;
+}
+body .content-wrapper {
+  background-color: red;
+  width: 96%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .content-wrapper .header .profil-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../assets/profil-picture.png);
 }
 
 /*# sourceMappingURL=output.css.map */
