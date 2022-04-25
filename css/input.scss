@@ -13,7 +13,7 @@ $gray-bold: #646464;
 
 // Mobile Version
 body {
-    background-color: #dedede;
+    background-color: #F4F4F4;
     width: 100vw;
     height: 100vh;
     font-family: $font-main;
@@ -62,10 +62,45 @@ body {
                 }
                 .subtitle {
                     font-size: 16px;
-                    color: #gray646464
+                    color: $gray-bold;
                 }
             }
 
+        }
+        .link-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .one-link {
+                background-color: #fff;
+                width: 100%;
+                max-width: 350px;
+                height: 50px;
+                border-radius: 5px;
+                border: 1px solid #dbdbdb;
+                a {
+                    width: 98%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    color: #000;
+                    span {
+                        width: 98%;
+                        text-align: center;
+                        display: block;
+                    }
+                    i {
+                        width: 2%;
+                        margin-right: 10px;
+                    }
+                }
+            }
         }
         // Footer
         .footer {
@@ -77,6 +112,7 @@ body {
             font-weight: 600;
             font-size: 16px;
             color: $gray-bold;
+            margin: 15px 0;
         }
     }
 }
