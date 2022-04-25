@@ -13,5 +13,5 @@ From live reloads to URL pushing, form replication to click mirroring, Browsersy
 ```
 npm install -g browers-sync
 // Launching the live server 
-brower-sync start --server --files "."
+browser-sync start --server --files "."
 ```
