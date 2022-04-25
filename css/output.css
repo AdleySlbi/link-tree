@@ -9,7 +9,7 @@ body {
   height: 100vh;
 }
 body .content-wrapper {
-  background-color: red;
+  border-bottom: 1px solid #C5C6D0;
   width: 96%;
   max-width: 600px;
   margin: 0 auto;
@@ -19,11 +19,24 @@ body .content-wrapper {
   justify-content: center;
   align-items: center;
 }
+body .content-wrapper .header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 body .content-wrapper .header .profil-pic {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../assets/profil-picture.png);
+  background-image: url("../assets/profil-picture.png");
+}
+body .content-wrapper .header .wrapper-presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=output.css.map */

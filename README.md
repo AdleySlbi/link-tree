@@ -11,7 +11,7 @@ sass --watch input.scss output.css
 ## Using BrowerSync
 From live reloads to URL pushing, form replication to click mirroring, Browsersync cuts out repetitive manual tasks. It’s like an extra pair of hands. [Brower-Sync](https://browsersync.io/)
 ```
-npm install -g browers-sync
+npm install -g browser-sync
 // Launching the live server 
 browser-sync start --server --files "."
 ```
