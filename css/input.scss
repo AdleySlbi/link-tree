@@ -82,6 +82,10 @@ body {
                 border-radius: 5px;
                 border: 1px solid #dbdbdb;
                 margin-bottom: 15px;
+                transition: 0.3s;
+                &:hover {
+                    background-color: #ffffff90;
+                }
                 a {
                     width: 98%;
                     height: 100%;

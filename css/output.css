@@ -69,6 +69,10 @@ body .content-wrapper .link-wrapper .one-link {
   border-radius: 5px;
   border: 1px solid #dbdbdb;
   margin-bottom: 15px;
+  transition: 0.3s;
+}
+body .content-wrapper .link-wrapper .one-link:hover {
+  background-color: #ffffff90;
 }
 body .content-wrapper .link-wrapper .one-link a {
   width: 98%;
