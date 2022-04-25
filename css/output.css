@@ -32,6 +32,9 @@ body .content-wrapper .header .profil-pic {
   height: 100px;
   border-radius: 50%;
   background-image: url("../assets/profil-picture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 body .content-wrapper .header .wrapper-presentation {
   display: flex;
