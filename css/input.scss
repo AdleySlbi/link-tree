@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+// Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$roboto : 'Roboto', sans-serif;
+
 // Variables de couleurs
 $grey-medium: #dedede;
 $grey-cloud: #C5C6D0;
@@ -11,6 +15,7 @@ body {
     background-color: #dedede;
     width: 100vw;
     height: 100vh;
+    font-family: $roboto;
     // Global wrapper
     .content-wrapper {
         border-bottom: 1px solid $grey-cloud ;
@@ -31,7 +36,7 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            // Frame of the profil picture
+            // Frame profil picture
             .profil-pic {
                 width: 100px;
                 height: 100px;
@@ -46,6 +51,10 @@ body {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                .name {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
             }
         }
     }

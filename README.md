@@ -15,3 +15,8 @@ npm install -g browser-sync
 // Launching the live server 
 browser-sync start --server --files "."
 ```
+
+## Font 
+The font [Roboto](https://fonts.google.com/specimen/Roboto) will be use for this website. 
+
+To use the font inside the code, use the variable `$roboto`
