@@ -12,7 +12,7 @@
     <section class="content-wrapper">
         <div class="header">
             <div class="profil-pic">
-                <!-- <img src="./assets/profil-picture.png" alt="Picture of Adley Salabi"> -->
+                <!-- Div qui permet d'afficher la photo -->
             </div>
             <div class="wrapper-presentation">
                 <h1 class="name">Adley Salabi</h1>
@@ -20,12 +20,18 @@
             </div>
         </div>  
         <div class="link-wrapper" id="link-anchor">
+        <!-- HTML that will be generated with the onload func : 
+
             <div class="one-link">
-                <a href="#" target="_blank">
-                    <span>Website</span>
-                    <i class="fa-solid fa-angle-right"></i>
+                <a href="link.com" target="_blank">
+                    <span>Button Placeholder</span>
+                    <div>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
                 </a>
-            </div>
+            </div> 
+        -->
+        
         </div>
         <div class="footer">
             <span class="credits">© 2022 Adley Salabi. All rights reserved.</span>
@@ -56,7 +62,9 @@
                 <div class="one-link">
                     <a href="${links[key]}" target="_blank">
                         <span>${key}</span>
-                        <i class="fa-solid fa-angle-right"></i>
+                        <div>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
                     </a>
                 </div>
             `

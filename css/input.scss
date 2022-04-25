@@ -48,6 +48,7 @@ body {
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
+                border: 2px solid #fff;
             }
             // Center the two texts
             .wrapper-presentation {
@@ -91,14 +92,21 @@ body {
                     font-weight: 600;
                     text-decoration: none;
                     color: #000;
+                    position: relative;
                     span {
-                        width: 98%;
+                        width: 100%;
                         text-align: center;
                         display: block;
+                        position: absolute;
                     }
-                    i {
-                        width: 2%;
-                        margin-right: 10px;
+                    div {
+                        width: 100%;
+                        // margin-right: 10px;
+                        position: absolute;
+                        display: flex;
+                        justify-content: flex-end;
+                        color: #bdbdbd;
+                        padding-right: 10px;
                     }
                 }
             }

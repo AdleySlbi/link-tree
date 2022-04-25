@@ -38,6 +38,7 @@ body .content-wrapper .header .profil-pic {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: 2px solid #fff;
 }
 body .content-wrapper .header .wrapper-presentation {
   display: flex;
@@ -79,15 +80,21 @@ body .content-wrapper .link-wrapper .one-link a {
   font-weight: 600;
   text-decoration: none;
   color: #000;
+  position: relative;
 }
 body .content-wrapper .link-wrapper .one-link a span {
-  width: 98%;
+  width: 100%;
   text-align: center;
   display: block;
+  position: absolute;
 }
-body .content-wrapper .link-wrapper .one-link a i {
-  width: 2%;
-  margin-right: 10px;
+body .content-wrapper .link-wrapper .one-link a div {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  color: #bdbdbd;
+  padding-right: 10px;
 }
 body .content-wrapper .footer {
   text-align: center;
