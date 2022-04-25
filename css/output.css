@@ -67,6 +67,7 @@ body .content-wrapper .link-wrapper .one-link {
   height: 50px;
   border-radius: 5px;
   border: 1px solid #dbdbdb;
+  margin-bottom: 15px;
 }
 body .content-wrapper .link-wrapper .one-link a {
   width: 98%;
@@ -89,10 +90,7 @@ body .content-wrapper .link-wrapper .one-link a i {
   margin-right: 10px;
 }
 body .content-wrapper .footer {
-  position: fixed;
   text-align: center;
-  left: 0;
-  bottom: 0;
   width: 100%;
   font-weight: 600;
   font-size: 16px;

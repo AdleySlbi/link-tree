@@ -8,7 +8,7 @@
     <title>LinkTree</title>
     
 </head>
-<body>
+<body onload="showLinks();">
     <section class="content-wrapper">
         <div class="header">
             <div class="profil-pic">
@@ -19,13 +19,12 @@
                 <span class="subtitle">Web & Mobile Developper </span>
             </div>
         </div>  
-        <div class="link-wrapper">
+        <div class="link-wrapper" id="link-anchor">
             <div class="one-link">
                 <a href="#" target="_blank">
                     <span>Website</span>
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
-                <i></i>
             </div>
         </div>
         <div class="footer">
@@ -35,4 +34,34 @@
     
 </body>
 <script src="https://kit.fontawesome.com/920c11f27e.js" crossorigin="anonymous"></script>
+<script>
+    let links = {
+        "Website": "adleysalabi.com",
+        "Website1": "adleysalabi.com",
+        "Website2": "adleysalabi.com",
+        "Website3": "adleysalabi.com",
+        "Website4": "adleysalabi.com",
+        "Website5": "adleysalabi.com",
+        "Website6": "adleysalabi.com",
+        "Website7": "adleysalabi.com",
+        "Website8": "adleysalabi.com"
+    }
+
+    function showLinks(){
+        var htmlAdd = document.getElementById("link-anchor");
+
+        for(var key in links) {
+            console.log(`This is the key : ${key}, the value : ${links[key]}  `)
+            htmlAdd.innerHTML += `
+                <div class="one-link">
+                    <a href="${links[key]}" target="_blank">
+                        <span>${key}</span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            `
+        }
+    }
+    
+</script>
 </html>
