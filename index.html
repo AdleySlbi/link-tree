@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/output.css">
     <title>LinkTree</title>
-    
+
 </head>
+
 <body onload="showLinks();">
     <section class="content-wrapper">
         <div class="header">
@@ -18,9 +20,9 @@
                 <h1 class="name">Adley Salabi</h1>
                 <span class="subtitle">MOA & MOE</span>
             </div>
-        </div>  
+        </div>
         <div class="link-wrapper" id="link-anchor">
-        <!-- HTML that will be generated with the onload func : 
+            <!-- HTML that will be generated with the onload func : 
 
             <div class="one-link">
                 <a href="link.com" target="_blank">
@@ -31,34 +33,33 @@
                 </a>
             </div> 
         -->
-        
+
         </div>
         <div class="footer">
-            <span class="credits">© 2022 <a href="www.adleysalabi.com" target="_blank">Adley Salabi.</a> All rights reserved.</span>
-        </div>  
+            <span class="credits">© 2022 <a href="www.adleysalabi.com" target="_blank">Adley Salabi.</a> All rights
+                reserved.</span>
+        </div>
     </section>
-    
+
 </body>
 <script src="https://kit.fontawesome.com/920c11f27e.js" crossorigin="anonymous"></script>
 <script>
-    // Dic utilisé pour la boucle
     // "Nom du site" : "LienDuSite.com"
     let links = {
-        "Website": "adleysalabi.com",
-        "Website1": "adleysalabi.com",
-        "Website2": "adleysalabi.com",
-        "Website3": "adleysalabi.com",
-        "Website4": "adleysalabi.com",
-        "Website5": "adleysalabi.com",
-        "Website6": "adleysalabi.com",
-        "Website7": "adleysalabi.com",
-        "Website8": "adleysalabi.com"
+        "Portefolio": "http://adleysalabi.com",
+        "Linkedin": "https://www.linkedin.com/in/adleysalabi/",
+        "GitHub": "https://www.github.com/AdleySlbi",
+        "Twitter": "https://www.twitter.com/AdleySlb",
+        "Instagram": "https://www.instagram.com/adleyslb/",
+        "Schedule an appointment": "https://www.calendly.com/adley-salabi/adley-salabi",
+        "Mail me": "mailto:contact@adleysalabi.com",
+        "Vinted": "https://www.vinted.fr/member/12481249-adleysalabi",
     }
 
-    function showLinks(){
+    function showLinks() {
         var htmlAdd = document.getElementById("link-anchor");
 
-        for(var key in links) {
+        for (var key in links) {
             console.log(`This is the key : ${key}, the value : ${links[key]}  `)
             htmlAdd.innerHTML += `
                 <div class="one-link">
@@ -74,6 +75,7 @@
 
         return
     }
-    
+
 </script>
+
 </html>

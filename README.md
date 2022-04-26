@@ -3,6 +3,25 @@ Welcome on my HTML5 and CSS link tree, a landing page that reference all my soci
 
 Feel free to use this template and to reach me out on Twitter or Instagram to show me the result of your LinkTree!
 
+## Change the links 
+In order to change the links you will need to go to the HTML file at the `<script>` element at the end of the `index.html` file.
+
+You will find the `links` object. The `key` is the input displayed on the button and the `value` is the link of the website. 
+
+```
+let links = {
+    "Portefolio": "http://adleysalabi.com",
+    "Linkedin": "https://www.linkedin.com/in/adleysalabi/",
+    "GitHub": "https://www.github.com/AdleySlbi",
+    "Twitter": "https://www.twitter.com/AdleySlb",
+    "Instagram": "https://www.instagram.com/adleyslb/",
+    "Schedule an appointment": "https://www.calendly.com/adley-salabi/adley-salabi",
+    "Send me a mail": "mailto:contact@adleysalabi.com",
+    "Vinted": "https://www.vinted.fr/member/12481249-adleysalabi",
+}
+````
+
+
 ## Using SCSS 
 Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. SassScript is the scripting language itself. [Sass](https://sass-lang.com/)
 
