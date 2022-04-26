@@ -53,6 +53,7 @@ body .content-wrapper .header .wrapper-presentation .name {
 body .content-wrapper .header .wrapper-presentation .subtitle {
   font-size: 16px;
   color: #646464;
+  text-align: center;
 }
 body .content-wrapper .link-wrapper {
   width: 100%;
