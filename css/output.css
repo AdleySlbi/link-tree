@@ -108,5 +108,8 @@ body .content-wrapper .footer {
   color: #646464;
   margin: 15px 0;
 }
+body .content-wrapper .footer a {
+  color: #646464;
+}
 
 /*# sourceMappingURL=output.css.map */
